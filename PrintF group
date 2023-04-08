@@ -1,0 +1,308 @@
+
+ <!doctype html>
+<html lang="en">
+<title>PrintF Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Sans-serif", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://brandinside.asia/wp-content/uploads/2018/08/shutterstock_1144265720.jpg);
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+    <head>
+        <style>
+          h2 {
+            border-style: solid;
+          }
+        </style>
+      </head>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-green w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <h1><b><center><font style="font-size:35px">PrintF Group</b></center></font></h1>
+    <div class="w3-bar w3-xlarge w3-orange w3-opacity w3-hover-opacity-off" id="myNavbar">
+      <a href="#" class="w3-bar-item w3-button"><strong>HOME</strong></a>
+      <a href="#menu" class="w3-bar-item w3-button"><strong>INFO</strong></a>
+      <a href="#about" class="w3-bar-item w3-button"><strong>MEMBERS</strong></a>
+      <a href="#myMap" class="w3-bar-item w3-button"><strong>CONTACT</strong></a>
+    </div>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-limescale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+
+  </div>
+  <div class="w3-display-middle w3-center">
+      <p><a href="#menu" class="w3-button w3-xxlarge w3-teal w3-round"><b>หอพักใน ม.ศิลปากร เขตสนามจันทร์</b></a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h2 class="w3-center w3-jumbo" style="margin-bottom:64px">หอพักใน ม.ศิลปากร เขตสนามจันทร์</h2>
+    <div class="w3-row w3-center w3-border w3-border-dark-yellow">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'ข้อมูลหอพักในของมหาวิทยาลัย');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">ข้อมูลหอพักในของมหาวิทยาลัย</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'หอพักชาย(ทับแก้ว)');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">หอพักชาย(ทับแก้ว)</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'หอพักหญิง(เพชรรัตน)');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">หอพักหญิง(เพชรรัตน)</div>
+      </a>
+    </div>
+
+    <div id="ข้อมูลหอพักในของมหาวิทยาลัย" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b><u>วัตถุประสงค์ของหอพัก</u></b> <span class="w3-right w3-tag w3-dark-grey w3-round"></h1>
+      <p class="w3-text-grey">1. เพื่อบริการที่พักแก่นักศึกษาที่มีภูมิลำเนาไกล และ มีความจำเป็นจริงๆได้อยู่หอพัก.</p>
+      <p class="w3-text-grey">2. เพื่อให้นักศึกษาได้รับบริการที่ดี และ ปลอดภัย.</p>
+      <p class="w3-text-grey">3. เพื่อให้นักศึกษาที่เข้าพักในหอพักได้เรียนรู้ในการอยู่ร่วมกัน.</p>
+      <p class="w3-text-grey">4. เพื่อพัฒนานักศึกษาหอพัก.</p>
+      <hr>
+   
+      <h1><b><u>หอพักนักศึกษามีทั้งหมด 10 อาคาร แบ่งเป็น</u></b> <span class="w3-right w3-tag w3-dark-grey w3-round"></h1>
+      <p class="w3-text-grey">- หอพักนักศึกษาชาย จำนวน 3 อาคาร ได้แก่ หอพักทับแก้ว 1, หอพักทับแก้ว 2, หอพักทับแก้ว 3 ซึ่งสามารถรองรับนักศึกษาได้จำนวน 626 คน (หอพักทับแก้ว 3 ติดตั้งเครื่องปรับอากาศ).</p>
+      <p class="w3-text-grey">- หอพักนักศึกษาหญิง จำนวน 7 อาคาร ได้แก่ หอพักเพชรรัตน 1, หอพักเพชรรัตน 2, หอพักเพชรรัตน 3, หอพักเพชรรัตน 4, หอพักเพชรรัตน 5, หอพักเพชรรัตน 6, หอพักเพชรรัตน 7 ซึ่งสามารถรองรับนักศึกษาได้จำนวน 1,960 คน (หอพักเพชรรัตน 5 และ เพชรรัตน 7 ติดตั้งเครื่องปรับอากาศ).</p>
+      <hr>
+      
+      <h1><b><u>การพิจารณาจัดสรร</u></b> <span class="w3-right w3-tag w3-dark-grey w3-round"></h1>
+      <p class="w3-text-grey">*ในแต่ละปีการศึกษา หอพักนักศึกษา มหาวิทยาลัยศิลปากร พระราชวังสนามจันทร์ ดำเนินการพิจารณาจัดสรรนักศึกษาเข้าอยู่หอพัก โดยคณะอนุกรรมการหอพักนักศึกษา มีหลักเกณฑ์ดังนี้.</p>
+      <p class="w3-text-grey">1. เป็นนักศึกษาที่มีภูมิลำเนาต่างจังหวัด.</p>
+      <p class="w3-text-grey">2. เข้าอยู่หอพักแล้วต้องผ่านเกณฑ์ความสะอาดห้องพัก.</p>
+      <p class="w3-text-grey">3. ไม่ฝ่าฝืนระเบียบหอพัก.</p>
+      <p class="w3-text-grey">4. ต้องเข้าร่วมกิจกรรมหอพักนักศึกษาร่วมกับคณะกรรมการนักศึกษา ประจำหอพักได้จัดทำขึ้นเพื่อพัฒนานักศึกษาที่พักในหอพัก.</p>
+      <hr>
+    
+      <h1><b><u>บทลงโทษ</u></b> <span class="w3-right w3-tag w3-dark-grey w3-round"></h1>
+      <p class="w3-text-teal">1. กรณีที่ถูกบันทึกความผิด</p>
+      <p class="w3-text-grey">- การเข้าหอพักหลังกำหนดโดยไม่ได้รับอนุญาต.</p>
+      <p class="w3-text-grey">- นักศึกษาที่ส่งเสียงดัง และแสดงพฤติกรรมก้าวร้าวหรือกลั่นแกล้งเจ้าหน้าที่ / อาจารย์ที่ปรึกษา.</p>
+      <p class="w3-text-teal">2. กรณีที่ถูกบันทึกความผิด.</p>
+      <p class="w3-text-grey">- การพักค้างชั่วคราวโดยไม่ได้รับอนุญาต.</p>
+      <p class="w3-text-grey">- นักศึกษาที่นำสิ่งต้องห้ามเข้าหอพัก.</p>
+      <p class="w3-text-grey">- นักศึกษาที่ไม่ปฏิบัติตาม “มารยาทและความประพฤติในขณะที่อยู่หอพัก”</p>
+      
+      <h1><b><u>สิ่งต้องห้ามนำเข้าหอพัก</u></b> <span class="w3-right w3-tag w3-dark-grey w3-round"></h1>
+      <p class="w3-text-grey">1. เครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด</p>
+      <p class="w3-text-grey">2. ยาเสพติด.</p>
+      <p class="w3-text-grey">3. อาวุธทุกชนิด.</p>
+
+    </div>
+        
+    <div id="หอพักชาย(ทับแก้ว)" class="w3-container menu w3-padding-32 w3-white">
+      <span class="w3-center w3-tag w3-teal w3-round"> หอพักชายเปิด เวลา 05.30-24.00 น. ทุกวัน</span>
+      <p class="w3-text-red">* หากนักศึกษาคนใดเข้าหอพักหลังหอพักปิดจะต้องเซ็นชื่อลงในแบบฟอร์มเข้าพักหลังกำหนด.</p>
+      <h1><b>หอพักชาย</b> <span class="w3-tag w3-green w3-round">(ทับแก้ว 1)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 63 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักทับแก้ว 1 ภาคการศึกษาละ 8,000-12,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2-3 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา.</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/doortk1.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักทับแก้ว 1</u></b></p>
+      <img src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t1.6435-9/74696593_144614320544128_4222342416405560251_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFwpzAfnYWLma1v4pqNPRM9niGPpba1VpeeIY-ltrVWl6j0egtvInoY_-j4BQ2Hoex7iTuOA-M7z7SuQ18wFIXh&_nc_ohc=OD52FVzz7YYAX8XBZDM&_nc_ht=scontent.fkdt1-1.fna&oh=00_AfApy4IhLwUKrQmBklnSZwkVWFtTnq0w1lu05RtDGkkvBA&oe=64570BE5" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=106"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+      <hr>
+   
+      <h1><b>หอพักชาย</b> <span class="w3-tag w3-green w3-round">(ทับแก้ว 2)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 78 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักทับแก้ว 2 ภาคการศึกษาละ 8,000-12,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2-3 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา.</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://fastly.4sqi.net/img/general/600x600/8296558_S4xar-jaoCfNQ2hWDafGN3n3GL6ySafznwk3wgQQ79k.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักทับแก้ว 2</u></b></p>
+      <img src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t1.6435-9/104436774_144614217210805_1555067641390723714_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHGjAI9UlU6FuRlgC9iLCE3h4oWwt5WSwaHihbC3lZLBirgM72H8nJJGZk55n9A2Yj5ayQGrhAvApaUXafhOq3C&_nc_ohc=SFNYFFGcH1sAX8qc7M0&_nc_ht=scontent.fkdt1-1.fna&oh=00_AfBb5BRwKAF429_TdUQdKHz2h84W1LqBLpPFPuQll7DFMw&oe=64570F54" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=109"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+      <hr>
+      
+      <h1><b>หอพักชาย</b> <span class="w3-tag w3-green w3-round">(ทับแก้ว 3)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 5 ชั้น มีห้องพักจำนวน 80 ห้อง(ติดตั้งเครื่องปรับอากาศ) และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- ภาคการศึกษาละ 24,000 บาท/ห้อง.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 4 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 2,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค(ไฟฟ้า)ตามมิเตอร์ หน่วยละ 5 บาท/เดือน.</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/doortk3.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักทับแก้ว 3</u></b></p>
+      <img src="https://scontent.fkdt1-1.fna.fbcdn.net/v/t1.6435-9/83918338_144614093877484_5533057589985905770_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHXMxxqUEdfSZpgI9rwFIBBZeNtfWC4UUhl4219YLhRSI8m7dolZkBqlAMTCrrIloG5bpTqioBkEXnjKT7ZzMhH&_nc_ohc=B9YB9PJK8PIAX_2iXyK&_nc_ht=scontent.fkdt1-1.fna&oh=00_AfDPAAZv7LcasHtNCsJPLU7IdODLi8wOgopgXrN-Ddu5Tg&oe=64570A3E" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=112"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+      <hr>
+      
+    </div>
+
+    <div id="หอพักหญิง(เพชรรัตน)" class="w3-container menu w3-padding-32 w3-white">
+      <span class="w3-center w3-tag w3-purple w3-round"> หอพักหญิงเปิด เวลา 05.30-23.30 น. ทุกวัน</span>
+      <p class="w3-text-red">* หากนักศึกษาคนใดเข้าหอพักหลังหอพักปิดจะต้องเซ็นชื่อลงในแบบฟอร์มเข้าพักหลังกำหนด.</p>
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 1)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 90 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 1 ภาคการศึกษาละ 8,000-12,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2-3 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94480728_119605263045034_4699476073375596544_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 1</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=115"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 2)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 90 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 2 ภาคการศึกษาละ 8,000-12,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2-3 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94385986_119610419711185_7022233050347995136_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 2</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=118"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 3)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 75 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 3 ภาคการศึกษาละ 8,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94491861_119634506375443_2010350736717643776_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 3</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=121"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 4)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 75 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 4 ภาคการศึกษาละ 8,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94779966_119636093041951_4086885347508617216_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 4</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=124"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+      
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 5)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 78 ห้อง(ติดตั้งเครื่องปรับอากาศ) และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 5 ภาคการศึกษาละ 18,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 3 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 2,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค(ไฟฟ้า)ตามมิเตอร์ หน่วยละ 5 บาท/เดือน.</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94504739_119638059708421_5757610810855653376_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 5</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=127"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 6)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 4 ชั้น มีห้องพักจำนวน 91 ห้อง และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 6 ภาคการศึกษาละ 8,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 2 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 1,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/94597273_119639196374974_6306615851575410688_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 6</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=130"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+
+      <h1><b>หอพักหญิง</b> <span class="w3-tag w3-pink w3-round">(เพชรรัตน 7)</span></h1>
+      <p class="w3-text-grey">- เป็นอาคารสูง 5 ชั้น มีห้องพักจำนวน 209 ห้อง(ติดตั้งเครื่องปรับอากาศ) และ มีห้องน้ำรวม.</p>
+      <p class="w3-text-grey">- หอพักเพชรรัตน 7 ภาคการศึกษาละ 24,000 บาท.</p>
+      <p class="w3-text-grey">- รับนักศึกษาเข้าพักห้องพักละ 4 คน.</p>
+      <p class="w3-text-grey">- ค่าประกันสิ่งของ เสียหาย คนละ 2,000 บาท (*ได้คืนหลังจบการศึกษา และไม่ได้ทำสิ่งของในห้องพักเสียหาย).</p>
+      <p class="w3-text-grey">- ค่าสาธารณูปโภค – บาท/ภาคการศึกษา</p>
+      <p class="w3-text-red">- *อุปกรณ์เครื่องใช้ส่วนตัว เช่น ผ้าปูที่นอน หมอน ผ้าห่ม ผ้าม่าน พัดลม นักศึกษาต้องนำมาเอง.</p>
+      <img src="https://dsa.su.ac.th/dorm/wp-content/uploads/2021/02/95141315_119640419708185_3794833507025420288_n.jpg"style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <p class="w3-text-black"><b><u>ตารางแผนที่ของหอพักเพชรรัตน 7</u></b></p>
+      <img src="https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/105628669_144612650544295_5377377647047043993_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHplvsKNawwvX2Jy_fkPytDIkWmSU3oBCgiRaZJTegEKEI5TCNgDTHJLNBEcb9_MVR2AsN_k9sMrZv8T9w5-u3o&_nc_ohc=LS3JR5KrYmgAX97pUQZ&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfB77NC5pM3FzNlI_RqQiuGrDbxkVFVezG3Ky8R73YFXLg&oe=64572BF4" style="width:100%" class="w3-margin-top w3-margin-bottom">
+      <a href="https://dsa.su.ac.th/dorm/?page_id=133"><span class="w3-tag w3-blue w3-round">ดูข้อมูลหอพักเพิ่มเติม</span></a>
+      
+    </div>
+
+
+<!-- MEMBERS Container -->
+<div class="w3-container w3-padding-64 w3-amber w3-xlarge" id="about">
+  <div class="w3-content">
+    <h2 class="w3-center w3-jumbo" style="margin-bottom:64px">Our Members Team</h2>
+         <p><span class="w3-left w3-tag w3-green w3-round"><b><u>1. ชื่อ-นามสกุล:</u></b> นายชลพศุ เชื่อมวราศาสตร์</span><span class="w3-right w3-tag w3-green w3-round"><b><u>รหัสนักศึกษา:</u></b>650710234</span></p>
+         <p><span class="w3-left w3-tag w3-blue w3-round"><b><u>2. ชื่อ-นามสกุล:</u></b> นายธนชาติ เอื้อยอ่อง</span><span class="w3-right w3-tag w3-blue w3-round"><b><u>รหัสนักศึกษา:</u></b> 650710235</span></p>
+         <p><span class="w3-left w3-tag w3-indigo w3-round"><b><u>3. ชื่อ-นามสกุล:</u></b> นายพิสิษฐ์ สุประดิษฐ์</span><span class="w3-right w3-tag w3-indigo w3-round"><b><u>รหัสนักศึกษา:</u></b> 650710706</span></p>
+         <p><span class="w3-left w3-tag w3-purple w3-round"><b><u>4. ชื่อ-นามสกุล:</u></b> นายเจษฎาพร อมรจิตรเวชกุล</span><span class="w3-right w3-tag w3-purple w3-round"><b><u>รหัสนักศึกษา:</u></b> 650710861</span></p>
+         <p><span class="w3-left w3-tag w3-black w3-round"><b><u>5. ชื่อ-นามสกุล:</u></b> นายภูรินท์ ชินราช</span><span class="w3-right w3-tag w3-black w3-round"><b><u>รหัสนักศึกษา:</u></b> 650710872</span></p>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<h2><center><b>แผนที่มหาวิทยาลัยศิลปากร เขตสนามจันทร์</b></center></h2>
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d736.1788107626604!2d100.04182684701611!3d13.816854528413039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30fcffa1b2043d1b%3A0x18c800b2e15effc7!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lio4Li04Lil4Lib4Liy4LiB4LijIOC4p-C4tOC4l-C4ouC4suC5gOC4guC4leC4nuC4o-C4sOC4o-C4suC4iuC4p-C4seC4h-C4quC4meC4suC4oeC4iOC4seC4meC4l-C4o-C5jOKAiw!5e0!3m2!1sth!2sth!4v1680918593508!5m2!1sth!2sth" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-teal w3-grayscale-min w3-xlarge" id="myMap">
+  <div class="w3-content">
+    <h2 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h2>
+    <p>หอพักนักศึกษา กองกิจการนักศึกษา มหาวิทยาลัยศิลปากร พระราชวังสนามจันทร์.</p>
+    <p><b><u>สำนักงาน:</u></b> ชั้น 1 อาคารหอพักเพชรรัตน 4.</p>
+    <p><b><u>ที่อยู่:</u></b> 6 ถ.ราชมรรคาใน ต.พระปฐมเจดีย์ อ.เมืองนครปฐม จ.นครปฐม 73000.</p>
+    <p><b><u>โทรศัพท์:</u></b> 034-275004 , 034-109686 ต่อ 200480.</p>
+    <p><b><u>Page Facebook:</u></b> <a href="https://web.facebook.com/SUDORMsanamchanpalace?_rdc=1&_rdr">หอพักนักศึกษา มหาวิทยาลัยศิลปากร พระราชวังสนามจันทร์.</a></p>
+    <p><b><u>เวลาทำการ:</u></b> จันทร์-ศุกร์ 08.30-16.30 น. กับ หยุด เสาร์-อาทิตย์ และ วันนักขัตฤกษ์.</p>
+    <p><b><u>เวลาให้บริการนักศึกษา:</u></b> จันทร์-ศุกร์ 08.30-22.00 น. กับ เสาร์-อาทิตย์ และ วันนักขัตฤกษ์ 17.00-22.00 น.</p>
+    <p><b><u>เจ้าหน้าที่รักษาความปลอดภัย:</u></b> จันทร์-ศุกร์ 16.30-08.00 น. กับ เสาร์-อาทิตย์ และ วันนักขัตฤกษ์ 16.30-08.00 น.</p>
+    <p><span class="w3-tag"><b>Log in</b></span></p>
+     
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Username or Email" required name="Username or Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Password" required name="Password"></p>
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+      <p><button class="w3-button w3-aqua w3-block" type="submit"><b>SEND MESSAGE</b></button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
